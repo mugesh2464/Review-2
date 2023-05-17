@@ -1,0 +1,28 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: tomato;
+    text-align: center;
+    background-color: firebrick;
+}
+*{
+    margin:10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mybulb{
+    border-color: crimson;
+}
+.container{
+    text-align: center;
+    background-color: azure;
+    max-width:60rem
+}
+button{
+    color: azure;
+    font-family:'Times New Roman';
+    box-shadow:2px;
+    border-radius:6px;
+    border-color:azure;
+    background-color:brown;
+    padding: 0.5rem;
+}

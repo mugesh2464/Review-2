@@ -1,0 +1,51 @@
+body{
+    background-color:azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+}
+*{
+    margin:10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color:darkcyan;
+    max-width:60rem;
+    margin: 2rem auto;
+    border:1px groove;
+}
+.main-heading{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: honeydew;
+
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.field-head{
+    font-size:1rem ;
+}
+.form-control-input{
+    border-style: dashed;
+    padding:0.5rem 0px;
+    text-indent:1rem;
+    outline: 1px;
+    border-radius:6px ;
+    width:95%;
+    color:black
+}
+.field-inputs{
+    display:flex;
+    gap:10px;
+}
+button{
+    font-family:'Times New Roman';
+    color: azure;
+    box-shadow:2px;
+    border-radius:6px;
+    border-color:azure;
+    background-color: darkturquoise;
+    padding: 0.5rem;
+}
